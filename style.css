@@ -1,0 +1,223 @@
+body{
+    position: fixed;
+    height: 100%;
+    width: 100vw;
+    margin: 0;
+    font-size: 16px;
+    overflow-x: hidden;
+    color: #282828;
+    background: #0C0A1E;
+    background-image: linear-gradient(to bottom, black, #0C0A1E,#0C0A1E,#0C0A1E,#0C0A1E,#0C0A1E,#0C0A1E,black);
+    font-family: Sans-Serif;
+    user-select: none;
+    overflow-y: hidden;
+}
+html {
+  -webkit-text-size-adjust: 100%; /* stops Chrome font boost */
+  text-size-adjust: 100%;
+}
+h1 {
+  font-size: clamp(1.8rem, 5vw, 3rem); /* min, preferred, max */
+}
+button,input{
+    border: none;
+    outline: none;
+}
+#homepage{
+    position: absolute;
+    height: 90%;
+    width: 100vw;
+    background: #0C0A1E;
+    background-image: linear-gradient(to bottom, black, #0C0A1E,#0C0A1E,#0C0A1E,#0C0A1E,#0C0A1E,transparent);
+}
+#topbar{
+    z-index: 999;
+    position: fixed;
+    height: 6%;
+    width: 100vw;
+    background-color: transparent;
+}
+#menu-button{
+    position: absolute;
+    height: 100%;
+    width: 15vw;
+    color: white;
+    font-size: 30px;
+    border: none;
+    background: transparent;
+}
+#domain{
+    position: absolute;
+    height: 100%;
+    width: 70vw;
+    left: 15vw;
+    display: flex;
+    color: white;
+    font-style: italic;
+    font-weight: 420;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    text-indent: 3px;
+}
+.s-font{
+    color: #FFCC00;
+    font-size: 26px;
+}
+#notification-button{
+    position: absolute;
+    height: 100%;
+    width: 15vw;
+    right: 0;
+    color: white;
+    font-size: 30px;
+    border: none;
+    background: transparent;
+}
+#banners{
+    position: absolute;
+    height: 30%;
+    width: 100vw;
+    top: 6%;
+    background-color: transparent;
+}
+#alt-book{
+    position: absolute;
+    height: 250px;
+    width: 94vw;
+    padding-bottom: 1.5vw;
+    border-radius: .6em;
+    left: 2.8vw;
+    top: 37%;
+    border: .2vw solid grey;
+    border-bottom: .2vw solid #242424;
+    background: rgba(255,255,255,0.03);
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .5vw;
+    color: white;
+    caret-color: red;
+}
+#alt-title{
+    background-color: white;
+    width: 86vw;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    background: transparent;
+    font-size: 16px;
+    font-weight: 400;
+}
+.location-in{
+    height: 40px;
+    width: 86vw;
+    border-radius: .4em;
+    background: rgba(255,255,255,0.1);
+    border: .2px solid #515151;
+    color: white;
+    text-indent: 20px;
+    box-sizing: border-box;
+}
+.date,.time{
+    height: 40px;
+    width: 42.525vw;
+    border-radius: .4em;
+    background: rgba(255,255,255,0.1);
+    border: .2px solid #515151;
+    color: white;
+}
+#vehicle-selection{
+    height: 40px;
+    width: 86vw;
+    background-color: white;
+    border-radius: .4em;
+    background: rgba(255,255,255,0.1);
+    border: .2px solid #515151;
+    color: white;
+}
+#alt-continue{
+    height: 35px;
+    width: 86vw;
+    border-radius: 2em;
+    background: #FFAC00;
+    color: #282828;
+    font-weight: 450;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#alt-continue-arr{
+    position: absolute;
+    right: 4.5vw;
+}
+#trust-section{
+    position: absolute;
+    height: 56px;
+    width: 94vw;
+    left: 3vw;
+    top: 78%;
+    background-color: transparent;
+    display: flex;
+    gap: 1.5vw;
+}
+.trust{
+    height: 46px;
+    width: 20vw;
+    padding: 1vw;
+    background-color: rgba(255,255,255,0.01);
+    border: .2vw solid #515151;
+    border-radius: .7em;
+    display: flex;
+}
+.trust-icon{
+    height: 20px;
+    width: 20px;
+    padding: 3px;
+    border-radius: 100%;
+    margin-top: 10.5px;
+    margin-left: 2px;
+    color: #FFAC00;
+    background-color: rgba(200,200,200,0.1);
+}
+
+
+
+
+
+
+
+
+#bottom-bar{
+    position: fixed;
+    height: 45px;
+    width: 90vw;
+    border-radius: .6em;
+    bottom: 2vw;
+    border: .2vw solid #515151;
+    border-bottom: .2vw solid #242424;
+    left: 2vw;
+    padding: 2.6vw;
+    background-image: linear-gradient(to bottom,rgba(200,200,200,0.1), transparent);
+    display: flex;
+    gap: 2vw;
+}
+.nav{
+    height: 100%;
+    width: 16.4vw;
+    background: transparent;
+    border-radius: .4em;
+    color: grey;
+    font-size: 10px;
+    font-weight: 420;
+}
+#nav3{
+    height: 16.4vw;
+    border-radius: 100%;
+    background-color: #FFAC00;
+    color: #282828;
+    font-weight: 460
+    
+}

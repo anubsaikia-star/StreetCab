@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title>StreetCab.com</title>
+        <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <div id="homepage">
+            <div id="topbar">
+                <button id="menu-button"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M3 6H21" stroke="grey" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M3 12H16" stroke="grey" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M3 18H11" stroke="grey" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </svg></button>
+                <div id="domain"><p class="s-font">🆂</p>treetCab</div>
+                <button id="notification-button"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M18.4125 11.9L20.2631 15.5475C20.5129 16.0401 20.3162 16.6419 19.8237 16.8918C19.6835 16.9629 19.5285 17 19.3713 17H4.62866C4.07638 17 3.62866 16.5523 3.62866 16C3.62866 15.8428 3.66574 15.6878 3.73687 15.5475L5.58747 11.9V8.47347C5.58747 5.78625 7.79997 3 12 3C16.2 3 18.4125 5.68433 18.4125 8.47347V11.9Z" stroke="grey" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path fill-rule="evenodd" clip-rule="evenodd" d="M8 17H16V17.6091C16 18.6134 15.4975 19.5511 14.6612 20.1072C13.7662 20.7024 12.878 21 11.9966 21C11.1159 21 10.2293 20.7028 9.33702 20.1085C8.50178 19.5522 8 18.6152 8 17.6116V17Z" stroke="grey" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </svg></button>
+            </div>
+            <div id="banners">
+                
+            </div>
+            <div id="alt-book">
+                <div id="alt-title">Plan Your Ride</div>
+                <input id="location1" class="location-in" type="character" placeholder="Where are you picking from?">
+                <input id="location2" class="location-in" type="character" placeholder="Where are you going? ">
+                <button id="date-in" class="date">Select Date</button>
+                
+                <button class="time" id="time-in">Select Time</button>
+                <div id="vehicle-selection"></div>
+                <button id="alt-continue">
+                    Find Your Ride
+                    <svg id="alt-continue-arr" width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M12.4975 8L16.4975 12L12.4975 16M16.495 11.9976H7.5M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="#282828" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </svg>
+                </button>
+            </div>
+            <div id="trust-section">
+                <div id="trust-1" class="trust">
+                    <svg class="trust-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M8.5 11.2856L10.937 15L15.5 9M12 3L4 6.07317L4 12.2195C4 16.2146 8.06857 19.8937 12 21C15.9314 19.8937 20 16.2146 20 12.2195V6.07317L12 3Z" stroke="#FFAC00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </svg>
+                </div>
+                <div id="trust-2" class="trust">
+                    <svg class="trust-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21Z" stroke="#563EC6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M12 8V12L15 15" stroke="#563EC6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </svg>
+                </div>
+                <div id="trust-3" class="trust">
+                    <svg class="trust-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M6.25 20H8.5C8.5 20 10.8443 21.2378 12.4937 21.2378C16.2091 21.2378 19 20 21.3494 17.1452C21.8831 16.5574 21.8741 15.6701 21.3785 15.0498C20.7396 14.2501 19.5386 14.1853 18.7375 14.822C17.8548 15.5234 16.6831 16.3124 15.5668 16.6223C14.0248 17.0503 12.5753 17.2085 12.4937 17.1351C11.3524 16.1089 16.2876 16.8282 15.5668 14.6852C15.0891 13.2648 13.5 13.5 13.5 13.5L10 14L6.25 14.5M6.25 14.5V12.75H3.25C2.69772 12.75 2.25 13.1977 2.25 13.75V20.25C2.25 20.8023 2.69772 21.25 3.25 21.25H6.25V14.5ZM19 7C19 8.65685 17.6569 10 16 10C14.3431 10 13 8.65685 13 7C13 5.34315 14.3431 4 16 4C17.6569 4 19 5.34315 19 7Z" stroke="#FFAC00" stroke-width="1.3"/> </svg>
+                </div>
+                <div id="trust-4" class="trust">
+                    <svg class="trust-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M18.5769 12C19.9152 12 21 13.0074 21 14.25V18.75C21 19.9926 19.9152 21 18.5769 21H16.2754C15.8472 21 15.5 20.6776 15.5 20.28V12.72C15.5 12.3224 15.8472 12 16.2754 12H18.5769Z" stroke="#FFAC00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M21 16.4505C21 15.0405 21 13.6437 21 12.2604C21 7.14601 16.9706 3 12 3C7.02944 3 3 7.14601 3 12.2604C3 13.6629 3 15.0761 3 16.5" stroke="#FFAC00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path fill-rule="evenodd" clip-rule="evenodd" d="M5.42308 12H7.72462C8.15285 12 8.5 12.3224 8.5 12.72V20.28C8.5 20.6776 8.15285 21 7.72462 21H5.42308C4.08485 21 3 19.9926 3 18.75L3 14.25C3 13.0074 4.08485 12 5.42308 12Z" stroke="#FFAC00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </svg>
+                </div>
+            </div>
+            
+
+        </div>
+        <div id="bottom-bar">
+                <button class="nav" id="nav1">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M13.9897 20.9982H19.0001V12H21.0001L12.0001 3L3.04309 12H5.00006V20.9982H10.0001V15.5H13.9897V20.9982Z" stroke="grey" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/> </svg><br>
+                    Home
+                </button>
+                <button class="nav" id="nav2">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M6 8V19C6 20.1046 6.89543 21 8 21H19C20.1046 21 21 20.1046 21 19V8C21 6.89543 20.1046 6 19 6H8C6.89543 6 6 6.89543 6 8Z" stroke="grey" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/> <path d="M10.9995 12H15.9999" stroke="grey" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/> <path d="M10.9995 16H12.9999" stroke="grey" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/> <path d="M11 2L10.8 2C7.71971 2 6.17957 2 5.00305 2.59946C3.96816 3.12677 3.12677 3.96816 2.59946 5.00305C2 6.17957 2 7.71971 2 10.8L2 12" stroke="grey" stroke-width="1" stroke-linecap="round"/> </svg><br>
+                    Bookings
+                </button>
+                <button class="nav" id="nav3">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M3 10L6.40098 5.82366C6.77733 5.30617 7.37858 5 8.01845 5H15.9617C16.6126 5 17.2229 5.31681 17.5974 5.84922L21 10.1857M3 10H2M3 10V17C3 18.1046 3.89543 19 5 19C6.10457 19 7 18.1046 7 17H17C17 18.1046 17.8954 19 19 19C20.1046 19 21 18.1046 21 17V10.1857M21 10.1857H22M7 13H8.5M15.5 13H17" stroke="#282828" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </svg><br>
+                    Book
+                </button>
+                <button class="nav" id="nav4">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M3.5 6.52246V17.5225C3.5 19.1793 4.84315 20.5225 6.5 20.5225H18.5C19.6046 20.5225 20.5 19.627 20.5 18.5225V10.5225C20.5 9.41789 19.6046 8.52246 18.5 8.52246H15.5M3.5 6.52246C3.5 7.90317 4.61929 8.52246 6 8.52246H15.5M3.5 6.52246C3.5 5.14175 4.61929 4.5 6 4.5H13.5C14.6046 4.5 15.5 5.39543 15.5 6.5V8.52246M17 12.5H12.5" stroke="grey" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/> </svg><br>
+                    Wallet
+                </button>
+                <button class="nav" id="nav5">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 13C9.23858 13 7 10.7614 7 8C7 5.23858 9.23858 3 12 3C14.7614 3 17 5.23858 17 8C17 10.7614 14.7614 13 12 13Z" stroke="grey" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16C17.1429 16 20.1429 17.6667 21 21H3C3.85714 17.6667 6.85714 16 12 16Z" stroke="grey" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/> </svg><br>
+                    Profile
+                </button>
+        </div>
+    </body>
+    <script src="script.js" type="text/javascript" charset="utf-8"></script>
+</html>
